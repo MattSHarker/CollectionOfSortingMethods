@@ -11,15 +11,15 @@
 int partition(int* arr, int left, int right)
 {
     int pivot = arr[right];
-    int smlInd = left - 1;   // index of the smallest element
+    int small = left - 1;   // index of the smallest element
 
     for (int i = left; i < right; ++i)
         if (arr[i] < pivot)
-            swap(&arr[++smlInd], &arr[i]);
+            swap(&arr[++small], &arr[i]);
     
-    swap(&arr[smlInd+1], &arr[right]);
+    swap(&arr[small+1], &arr[right]);
 
-    return (smlInd+ 1);
+    return (small + 1);
 }
 
 // standard quick sort algorithm
