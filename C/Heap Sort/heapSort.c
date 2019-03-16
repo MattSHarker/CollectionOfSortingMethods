@@ -23,7 +23,6 @@ void heapify(int* arr, int size, int index)
     if (largest != index)
     {
         swap(&arr[index], &arr[largest]);
-
         heapify(arr, size, largest);
     }
 }
@@ -32,7 +31,7 @@ void heapify(int* arr, int size, int index)
 void heapSort(int* arr, int size)
 {
     // rearrange array into a heap
-    for (int i = size/2 -1; i >= 0; --i)
+    for (int i = size/2 - 1; i >= 0; --i)
         heapify(arr, size, i);
     
     for (int i = size-1; i >= 0; --i)
