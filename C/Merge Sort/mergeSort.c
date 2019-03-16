@@ -1,5 +1,5 @@
 
-// Matthew Harmer
+// Matthew Harker
 // Merge Sort using C
 
 #include <stdio.h>
@@ -62,6 +62,7 @@ void mergeSort(int* arr, int left, int right)
 
 int main()
 {
+    printf("Merge Sort\n");
     int arr[SIZE];
     initArr(arr, SIZE);
 
