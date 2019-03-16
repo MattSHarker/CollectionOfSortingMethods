@@ -28,7 +28,7 @@ void insertionSort(int* arr, int size)
 
 int main()
 {
-    cout << "Bubble Sort" << endl;
+    cout << "Insertion Sort" << endl;
 
     int arr[SIZE];
     initArr(arr, SIZE);
