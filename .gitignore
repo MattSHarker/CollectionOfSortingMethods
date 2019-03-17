@@ -2,3 +2,4 @@
 C/sortUtilities.h
 *.exe
 C++/sortUtilities.hpp
+*.class
