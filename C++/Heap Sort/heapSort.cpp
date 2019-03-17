@@ -48,7 +48,7 @@ void heapSort(int* arr, int size)
 
 int main()
 {
-    cout << "Heap Sort" << endl;
+    cout << "Heap Sort in C++" << endl;
 
     int arr[SIZE];
     initArr(arr, SIZE);
