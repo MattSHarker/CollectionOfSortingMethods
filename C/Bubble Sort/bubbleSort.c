@@ -33,7 +33,7 @@ void bubbleSort(int* arr, int size)
 
 int main()
 {
-    printf("Bubble Sort\n");
+    printf("Bubble Sort in C\n");
 
     int arr[SIZE];
     initArr(arr, SIZE);
