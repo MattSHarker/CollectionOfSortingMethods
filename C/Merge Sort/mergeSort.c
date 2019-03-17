@@ -17,7 +17,7 @@ void merge(int* arr, int left, int mid, int right)
     int arrR[sizeR];
 
     for (int i = 0; i < sizeL; ++i)
-        arrL[i] = arr[left + 1];
+        arrL[i] = arr[left + i];
     
     for (int i = 0; i < sizeR; ++i)
         arrR[i] = arr[mid + 1 + i];
