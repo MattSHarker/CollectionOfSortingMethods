@@ -37,7 +37,7 @@ void quickSort(int* arr, int left, int right)
 
 int main()
 {
-    printf("Quick Sort\n");
+    printf("Quick Sort in C\n");
 
     int arr[SIZE];
     initArr(arr, SIZE);
