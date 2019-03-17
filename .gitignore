@@ -1,5 +1,5 @@
 
-C/sortUtilities.h
-*.exe
-C++/sortUtilities.hpp
 *.class
+*.exe
+C/sortUtilities.h
+C++/sortUtilities.hpp
