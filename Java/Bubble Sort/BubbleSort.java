@@ -38,7 +38,7 @@ public class BubbleSort
 
     // prints out an array
     // takes into consideration single digit numbers for consistency
-    public static void printArray(int arr[])
+    public static void printArray(int[] arr)
     {
         int size = arr.length;
 
@@ -54,7 +54,7 @@ public class BubbleSort
     }
 
     // creates an array of size "size" and randomizes it
-    public static void randomizeArr(int[] arr)
+    public static void randomizeArray(int[] arr)
     {
         int size = arr.length;
         Random rand = new Random();
@@ -67,7 +67,7 @@ public class BubbleSort
     {
         // create and randomize array
         int[] arr = new int[SIZE];
-        randomizeArr(arr);
+        randomizeArray(arr);
 
         System.out.println("Bubble Sort in Java");
         System.out.print("Original Array: ");
