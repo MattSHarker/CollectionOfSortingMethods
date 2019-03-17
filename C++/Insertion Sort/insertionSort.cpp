@@ -28,7 +28,7 @@ void insertionSort(int* arr, int size)
 
 int main()
 {
-    cout << "Insertion Sort" << endl;
+    cout << "Insertion Sort in C++" << endl;
 
     int arr[SIZE];
     initArr(arr, SIZE);
