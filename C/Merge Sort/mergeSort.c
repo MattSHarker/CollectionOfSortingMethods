@@ -17,7 +17,7 @@ void merge(int* arr, int left, int mid, int right)
     int arrR[sizeR];
 
     for (int i = 0; i < sizeL; ++i)
-        arrL[i] = arr[left + i];
+        arrL[i] = arr[left + 1];
     
     for (int i = 0; i < sizeR; ++i)
         arrR[i] = arr[mid + 1 + i];
@@ -46,15 +46,15 @@ void merge(int* arr, int left, int mid, int right)
 // an optimized version of bubble sort
 void mergeSort(int* arr, int left, int right)
 {
-    if(left < right)
+    if (left < right)
     {
         int mid = left + (right - left) / 2;
 
-        // recursively sort two halves
+        // recursively sort the two halves
         mergeSort(arr, left, mid);
         mergeSort(arr, mid+1, right);
 
-        // merge the halves together
+        // merge the two halves together
         merge(arr, left, mid, right);
     }
 }
