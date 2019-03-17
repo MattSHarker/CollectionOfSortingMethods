@@ -25,7 +25,7 @@ void insertionSort(int* arr, int size)
 
 int main()
 {
-    printf("Insertion Sort\n");
+    printf("Insertion Sort in C\n");
 
     int arr[SIZE];
     initArr(arr, SIZE);
