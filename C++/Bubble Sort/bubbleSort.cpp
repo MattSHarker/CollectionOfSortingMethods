@@ -36,7 +36,7 @@ void bubbleSort(int* arr, int size)
 
 int main()
 {
-    cout << "Bubble Sort" << endl;
+    cout << "Bubble Sort in C++" << endl;
 
     int arr[SIZE];
     initArr(arr, SIZE);
