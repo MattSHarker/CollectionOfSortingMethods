@@ -62,7 +62,7 @@ void mergeSort(int* arr, int left, int right)
 
 int main()
 {
-    printf("Merge Sort\n");
+    printf("Merge Sort in C\n");
     
     int arr[SIZE];
     initArr(arr, SIZE);
