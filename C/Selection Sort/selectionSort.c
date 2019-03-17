@@ -7,11 +7,11 @@
 
 #define SIZE 8
 
-// an optimized version of bubble sort
+// standard selection sort algorithm
 void selectionSort(int* arr, int size)
 {
     // move boundry of what is being search
-    for (int i = 0; i < size - 1; i++)
+    for (int i = 0; i < size - 1; ++i)
     {
         int min = i;
 
