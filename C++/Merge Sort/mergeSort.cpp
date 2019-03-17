@@ -44,7 +44,7 @@ void merge(int* arr, int left, int mid, int right)
         arr[m++] = arrR[r++];
 }
 
-// standard insertion sort algorithm
+// standard merge sort algorithm
 void mergeSort(int* arr, int left, int right)
 {
     if (left < right)
@@ -63,7 +63,7 @@ void mergeSort(int* arr, int left, int right)
 
 int main()
 {
-    cout << "Merge Sort" << endl;
+    cout << "Merge Sort in C++" << endl;
 
     int arr[SIZE];
     initArr(arr, SIZE);
