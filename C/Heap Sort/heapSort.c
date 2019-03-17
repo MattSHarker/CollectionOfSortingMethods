@@ -44,7 +44,7 @@ void heapSort(int* arr, int size)
 
 int main()
 {
-    printf("Heap Sort\n");
+    printf("Heap Sort in C\n");
 
     int arr[SIZE];
     initArr(arr, SIZE);
