@@ -22,7 +22,7 @@ public class InsertionSort
             while (j >= 0 && arr[j] > curVal)
                 arr[j+1] = arr[j--];
             
-                arr[j+1] = curVal;
+            arr[j+1] = curVal;
         }
     }
 
